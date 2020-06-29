@@ -17,11 +17,26 @@ Estos son los requisitos sugeridos:
 El primer paso tomado ha sido analizar donde se situan en el mundo la mayor cantidad de empresas de gamers, este proceso se puede encontrar en el documento ``gettingtheplace.ipynb``. 
 La conclusión obtenida fue que el mayor numero de empresas de gamers se encuentra en **San Francisco, CA** y filtramos más por zip_codes donde mayor número de empresas hay.
 
-Una vez que tenemos filtrado por la ciudad de San Francisco, vamos a sacar usando las apis de **Google Places** , **Foursquare**  y **GeoCode** un listado de todos los requisitos previamente descritos, este proceso se puede encontrar en el documento `` expectingrequirements.ipynb``.
+Una vez que tenemos filtrado por la ciudad de San Francisco, vamos a sacar usando las apis de **Google Places** , **Foursquare**  y **GeoCode** un listado de todos los requisitos previamente descritos, este proceso se puede encontrar en el documento `` Expectingrequirements.ipynb``.
 
 Una vez sacado esta información creamos un mapa en TableauMap para ver todos los requisitos por layers. 
 Este es el link al mapa:
 https://public.tableau.com/profile/miriam6476#!/vizhome/officeHQ/SANFRANCISCOCA?publish=yes
+
+
+
+Tras visualizar el mapa, voy a seleccionar las coordenadas de la empresa que más requisitos cumpla, esto lo realizo con **MongoDB** . Todo este analisis se puede encontrar en el documento ``Choosingthepoint.ipynb``
+
+Finalmente esta son las coordenadas seleccionadas **37.780134,-122.396744** y se encuentra a esta distancia de los siguientes requisitos:
+
+1. Club_distane : 0.4907764314669059 km
+2. Court_distance: 1.7546611083781394 km
+3. School:distance 0.9197809838870833 km
+4. vegan_restaurant_distance 0.900747605269903 km
+5. Offices_money_raised_over1M_distance :0.4453363851813138 km
+6. airport_distance: 1.3210798150082281 km
+
+
 
 
 
