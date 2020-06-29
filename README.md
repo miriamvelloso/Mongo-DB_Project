@@ -36,6 +36,8 @@ Finalmente esta son las coordenadas seleccionadas **37.780134,-122.396744** y se
 5. Offices_money_raised_over1M_distance :0.4453363851813138 km
 6. airport_distance: 1.3210798150082281 km
 
+![alt text](https://github.com/miriamvelloso/Mongo-DB_Project/blob/master/output/Screen%20Shot%202020-06-29%20at%2018.21.58.png)
+
 
 
 
