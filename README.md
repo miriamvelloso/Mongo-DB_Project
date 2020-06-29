@@ -1,6 +1,8 @@
 # GeoSpartial-Data-Project
 
-EL objetivo de este proyecto es buscar las coordenadas ideales para abrir una oficina según los siguientes requisitos:
+EL objetivo de este proyecto es encontrar la mejor localización para abrir una oficina de una empresa de diseño de juegos, y como data analytics nos piden que  según los siguientes requisitos demos unas coordenadas sobre el lugar exacto donde deseamos abrir nuestra oficina.
+
+Estos son los requisitos sugeridos:
 
 - Designers like to go to design talks and share knowledge. There must be some nearby companies that also do design.
 - 30% of the company have at least 1 child.
@@ -15,9 +17,9 @@ EL objetivo de este proyecto es buscar las coordenadas ideales para abrir una of
 El primer paso tomado ha sido analizar donde se situan en el mundo la mayor cantidad de empresas de gamers, este proceso se puede encontrar en el documento ``gettingtheplace.ipynb``. 
 La conclusión obtenida fue que el mayor numero de empresas de gamers se encuentra en **San Francisco, CA** y filtramos más por zip_codes donde mayor número de empresas hay.
 
-Una vez que tenemos filtrado por la ciudad de San Francisco, vamos a sacar usando las apis de **Google Places** y **Foursquare** un listado de todos los requisitos previamente descritos, este proceso se puede encontrar en el documento `` expectingrequirements.ipynb``.
+Una vez que tenemos filtrado por la ciudad de San Francisco, vamos a sacar usando las apis de **Google Places** , **Foursquare**  y **GeoCode** un listado de todos los requisitos previamente descritos, este proceso se puede encontrar en el documento `` expectingrequirements.ipynb``.
 
-Una vez sacado esta información creamos un mapa en Tableau Public para ver todos los requisitos por layers. 
+Una vez sacado esta información creamos un mapa en TableauMap para ver todos los requisitos por layers. 
 Este es el link al mapa:
 https://public.tableau.com/profile/miriam6476#!/vizhome/officeHQ/SANFRANCISCOCA?publish=yes
 
